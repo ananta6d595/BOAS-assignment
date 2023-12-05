@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import Hero from "../Components/Hero";
+import FeaturedProduct from "../Components/FeaturedProduct";
 
 const Homepage = () => {
     // const { isPending, error, data } = useQuery({
@@ -17,7 +18,7 @@ const Homepage = () => {
     return (
         <div>
             <Hero></Hero>
-
+            <FeaturedProduct></FeaturedProduct>
         </div>
     );
 };
