@@ -1,9 +1,9 @@
 
 const Container = ({children}) => {
     return (
-        <div className="">
+        <section className=" px-4 sm:px-14 lg:px-28 mb-10">
             {children}
-        </div>
+        </section>
     );
 };
 

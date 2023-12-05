@@ -2,10 +2,10 @@ import Container from "./Container";
 
 const Footer = () => {
     return (
-        <Container>
-            <footer className="bg-slate-100  px-4 py-8 text-black  md:px-32">
+        <footer className="bg-slate-100 text-black">
+            <Container>
                 <div className="mx-auto max-w-[1500px] gap-[2.75rem] flex flex-col">
-                    <div className="flex flex-col gap-2 md:flex-row md:items-center justify-start">
+                    <div className="flex flex-col  gap-2 md:flex-row md:items-center justify-start pt-6">
                         <div className="leading-8 md:flex-1 md:max-w-md">
                             <p className="text-sm">
                                 Subscribe to our newsletter
@@ -24,10 +24,10 @@ const Footer = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="flex xl:justify-between justify-center">
-                        <div className="flex flex-col items-start max-w-xs gap-[3.75rem]">
+                    <div className="grid gap-10 justify-center sm:justify-normal sm:grid-cols-2 lg:grid-cols-5 ">
+                        <div className="flex flex-col items-start  max-w-[500px] lg:max-w-[400px]  gap-[3.75rem] lg:col-span-2">
                             <div>
-                                <div className="flex items-center text-sm gap-3">
+                                <div className="flex items-center justify-center sm:justify-normal text-sm gap-3">
                                     <div className="relative h-12 w-12">
                                         <img
                                             alt="boas logo"
@@ -41,7 +41,7 @@ const Footer = () => {
                                     </div>
                                     <p>BOAS - Save Jeans. Save Lives. </p>
                                 </div>
-                                <span className="text-xs">
+                                <span className="text-xs ">
                                     You've made it to the end! Thanks for taking
                                     the time. If you're here because you're
                                     lost, feel free to{" "}
@@ -51,7 +51,7 @@ const Footer = () => {
                                     and we'll get you back on track.
                                 </span>
                             </div>
-                            <div className="flex justify-center xl:justify-start gap-1 flex-wrap">
+                            <div className="flex justify-center sm:justify-start gap-1 flex-wrap">
                                 <div>
                                     <img
                                         alt=""
@@ -164,7 +164,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="xl:flex flex-col hidden gap-2">
+                        <div className="flex flex-col items-center sm:items-start gap-2">
                             <p className="font-medium">ABOUT BOAS</p>
                             <a
                                 href="https://shop.boas.co/pages/mission"
@@ -202,7 +202,7 @@ const Footer = () => {
                                 Shipping and Returns
                             </a>
                         </div>
-                        <div className="xl:flex flex-col hidden gap-2">
+                        <div className="flex flex-col items-center sm:items-start gap-2">
                             <p className="font-medium">BRANDS AND PRESS</p>
                             <a
                                 href="https://shop.boas.co/pages/press"
@@ -215,7 +215,7 @@ const Footer = () => {
                                 Affiliate Program
                             </a>
                         </div>
-                        <div className="xl:flex flex-col items-end hidden gap-2">
+                        <div className="flex flex-col items-center sm:items-start lg:items-end gap-2">
                             <p className="font-medium">
                                 Download the BOAS app{" "}
                             </p>
@@ -316,8 +316,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </footer>
-        </Container>
+            </Container>
+        </footer>
     );
 };
 
