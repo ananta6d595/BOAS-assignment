@@ -7,8 +7,8 @@ const SlideElement = ({ pageLink, imgLink, jeansLabel }) => {
                 className='inset-0'
                 href={pageLink}>
 
-                <div className="relative group overflow-hidden h-[390px] w-80 flex flex-col items-center justify-center shadow-lg  ">
-                    <p className="absolute z-10 font-semibold text-xl text-white whitespace-nowrap">
+                <div className="relative group overflow-hidden h-96 max-h-[400px]  xl:h-[400px] w-80 xl:w-72 flex flex-col items-center justify-center shadow-lg  ">
+                    <p className="absolute z-10 font-semibold text-2xl text-white whitespace-nowrap">
                         {jeansLabel}
                     </p>
                     <img
@@ -16,7 +16,7 @@ const SlideElement = ({ pageLink, imgLink, jeansLabel }) => {
                         className="absolute object-cover h-full w-full group-hover:scale-[1.2] duration-[350ms] group-hover:ease-in-out"
                         src={imgLink}
                     />
-                    <div className='absolute bg-sky-700 bg-opacity-30 group-hover:bg-opacity-10 inset-0'></div>
+                    <div className='absolute bg-blue-500 bg-opacity-20 group-hover:bg-opacity-10 inset-0'></div>
 
 
                 </div>

@@ -21,15 +21,15 @@ const FeaturedProduct = () => {
                     </h2>
                     <Swiper
                         slidesPerView={"auto"}
+                        mousewheel-force-to-axis={"true"}
                         spaceBetween={10}
                         pagination={{
                             type: "bullets",
                         }}
-                        mousewheel={true}
                         keyboard={true}
                         navigation={true}
                         modules={[Pagination, Navigation]}
-                        className=""
+                        className="horizontal"
                     >
                         <SwiperSlide >
                             <SlideElement
