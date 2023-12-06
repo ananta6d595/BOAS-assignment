@@ -1,10 +1,10 @@
 import React from 'react';
 
-const LeviesButton = ({attributes, href, label}) => {
+const LeviesButton = ({ href, label}) => {
     return (
         <>
             <a
-                className={attributes}
+                className=" border-[2px] px-10 xl:px-16 py-4 hover:text-sky-300 "
                 href={href}>
                 {label}
             </a>
