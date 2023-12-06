@@ -36,7 +36,7 @@ const LevisSection = () => {
 
     return (
         <Container>
-            <div className=" max-w-[1500px] mx-auto">
+            <div className=" max-w-[1500px] mx-auto mb-10">
                 <article className="relative text-white p-4 bg-stone-800 bg-opacity-30 flex flex-col md:items-start justify-center lg:p-8 gap-4 ">
                     <div className=" w-full h-full lg:pb-2">
                         <h4 className="text-xl font-bold lg:text-4xl ">

@@ -14,7 +14,7 @@ const FeaturedProduct = () => {
 
     return (
         <Container>
-            <div className="mt-20 max-w-[1500px] mx-auto">
+            <div className="mt-20 max-w-[1500px] mx-auto mb-10">
                 <div>
                     <h2 className="text-black text-center xl:text-3xl text-xl font-bold mb-12">
                         Buy Now, Save Now!

@@ -3,6 +3,7 @@ import Hero from "../Components/Hero";
 import FeaturedProduct from "../Components/FeaturedProduct";
 import LevisSection from "../Components/LevisSection";
 import ShopByFitProducts from "../Components/ShopByFitProducts";
+import DownloadAppSection from "../Components/DownloadAppSection";
 
 const Homepage = () => {
     // const { isPending, error, data } = useQuery({
@@ -23,6 +24,7 @@ const Homepage = () => {
             <FeaturedProduct></FeaturedProduct>
             <LevisSection></LevisSection>
             <ShopByFitProducts></ShopByFitProducts>
+            <DownloadAppSection></DownloadAppSection>
         </div>
     );
 };

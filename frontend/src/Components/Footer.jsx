@@ -2,9 +2,9 @@ import Container from "./Container";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#eceff1] text-black">
+        <footer className="bg-[#eceff1] text-black pb-10">
             <Container>
-                <div className="mx-auto max-w-[1500px] gap-[2.75rem] flex flex-col">
+                <div className="mx-auto max-w-[1500px] gap-[2.75rem] flex flex-col ">
                     <div className="flex flex-col  gap-2 md:flex-row md:items-center justify-start pt-6">
                         <div className="leading-8 md:flex-1 md:max-w-md">
                             <p className="text-sm">

@@ -37,7 +37,7 @@ const ShopByFitProducts = () => {
 
     return (
         <Container>
-            <div className="max-w-[1500px] mx-auto">
+            <div className="max-w-[1500px] mx-auto mb-10">
                 <div>
                     <h2 className="text-black xl:text-3xl text-xl font-semibold mb-4">
                         Shop by Fit
@@ -52,7 +52,7 @@ const ShopByFitProducts = () => {
                         keyboard={true}
                         navigation={true}
                         modules={[Pagination, Navigation]}
-                        className="">
+                    >
                         {fitCollections.map((data, index) => {
                             return (
                                 <SwiperSlide key={index}>
