@@ -7,24 +7,30 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+
+
 const FeaturedProduct = () => {
     return (
         <Container>
             <div className="mt-20 max-w-[1500px] mx-auto">
                 <div>
-                    <h2 className="text-black text-center xl:text-3xl text-xl font-medium">
-                        Buy Now!
+                    <h2 className="text-black text-center xl:text-3xl text-xl font-medium mb-12">
+                        Buy Now, Save Now!
                     </h2>
                     <Swiper
                         slidesPerView={4}
-                        spaceBetween={30}
+                        spaceBetween={10}
                         pagination={{
                             type: "bullets",
                         }}
+                        mousewheel={true}
+                        keyboard={true}
                         navigation={true}
                         modules={[Pagination, Navigation]}
-                        className="mySwiper">
-                        <SwiperSlide>
+                        className="mySwiper"
+                    >
+                        <SwiperSlide >
+
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/vintage-jeans-under-30-euro"
@@ -34,7 +40,7 @@ const FeaturedProduct = () => {
                                 }
                                 jeansLabel={"Under €30"}></SlideElement>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide >
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/vintage-levis-501-jeans"
@@ -44,7 +50,7 @@ const FeaturedProduct = () => {
                                 }
                                 jeansLabel={"Levi's 501"}></SlideElement>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide >
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/black-vintage-jeans"
@@ -54,7 +60,7 @@ const FeaturedProduct = () => {
                                 }
                                 jeansLabel={"Black"}></SlideElement>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide >
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/dark-blue-wash-vintage-jeans"
@@ -64,7 +70,7 @@ const FeaturedProduct = () => {
                                 }
                                 jeansLabel={"Dark blue"}></SlideElement>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide >
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/light-blue-wash-vintage-jeans"
@@ -74,7 +80,7 @@ const FeaturedProduct = () => {
                                 }
                                 jeansLabel={"Light blue"}></SlideElement>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide >
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/upcycled-jeans"
