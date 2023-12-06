@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import Hero from "../Components/Hero";
 import FeaturedProduct from "../Components/FeaturedProduct";
+import LevisSection from "../Components/LevisSection";
 
 const Homepage = () => {
     // const { isPending, error, data } = useQuery({
@@ -19,6 +20,7 @@ const Homepage = () => {
         <div>
             <Hero></Hero>
             <FeaturedProduct></FeaturedProduct>
+            <LevisSection></LevisSection>
         </div>
     );
 };

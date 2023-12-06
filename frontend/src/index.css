@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 .swiper-button-prev {
     background: black;
