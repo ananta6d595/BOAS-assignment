@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Container from "./Container";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SlideElement from "./SlideElement";
@@ -10,15 +10,17 @@ import "swiper/css/pagination";
 
 
 const FeaturedProduct = () => {
+
+
     return (
         <Container>
             <div className="mt-20 max-w-[1500px] mx-auto">
                 <div>
-                    <h2 className="text-black text-center xl:text-3xl text-xl font-medium mb-12">
+                    <h2 className="text-black text-center xl:text-3xl text-xl font-bold mb-12">
                         Buy Now, Save Now!
                     </h2>
                     <Swiper
-                        slidesPerView={4}
+                        slidesPerView={"auto"}
                         spaceBetween={10}
                         pagination={{
                             type: "bullets",
@@ -27,10 +29,9 @@ const FeaturedProduct = () => {
                         keyboard={true}
                         navigation={true}
                         modules={[Pagination, Navigation]}
-                        className="mySwiper"
+                        className=""
                     >
                         <SwiperSlide >
-
                             <SlideElement
                                 pageLink={
                                     "https://shop.boas.co/collections/vintage-jeans-under-30-euro"

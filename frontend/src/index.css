@@ -38,6 +38,10 @@
 .swiper-button-prev:after, .swiper-button-next:after{
     font-size: larger !important;
 }
+.swiper-pagination-bullet{
+    height: 10px !important;
+    width: 10px !important;
+}
 
 .swiper-pagination-bullet-active{
     background: black !important;

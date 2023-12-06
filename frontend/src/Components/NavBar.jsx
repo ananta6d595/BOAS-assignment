@@ -2,8 +2,8 @@ import menuBar from '../assets/menu.svg'
 
 const NavBar = () => {
     return (
-        <div>
-            <div className="sticky md:-top-20 top-0  z-20 bg-white">
+        <>
+            <div className="sticky md:-top-20 top-0  z-30 bg-white">
                 <nav className=" flex flex-col  bg-white px-4  py-2 md:px-10 lg:px-32 max-w-[1500px] mx-auto shadow">
                     <div className="flex items-center justify-between ">
                         <button className="block md:hidden ">
@@ -73,7 +73,7 @@ const NavBar = () => {
                                             <p>Cart</p>
                                         </div>
                                     </a>
-                                    <div className="hidden md:block"></div>
+
                                 </div>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ const NavBar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
