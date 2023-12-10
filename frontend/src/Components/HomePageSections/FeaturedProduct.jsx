@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Container from "./Container";
+import Container from "../Container";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SlideElement from "./SlideElement";
+import SlideElement from "../SlideElement";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";

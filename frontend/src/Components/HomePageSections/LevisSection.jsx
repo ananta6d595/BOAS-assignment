@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "./Container";
-import LeviesButton from "./LeviesButton";
+import Container from "../Container";
+import LeviesButton from "../LeviesButton";
 
 const LevisSection = () => {
     const collections = [
