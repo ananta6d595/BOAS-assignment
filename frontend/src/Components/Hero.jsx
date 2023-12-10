@@ -45,7 +45,7 @@ const Hero = () => {
                                 </div>
                                 {width > 1280 ? <span className="text-xs xl:text-base text-center pt-1">Minutes</span> : <span className="text-xs xl:text-base text-center pt-1">M</span>}
                             </div>
-                            <div className="countdown-part flex flex-col items-center z-20 bg-white rounded-md xl:rounded-xl">
+                            <div className="countdown-part flex flex-col items-center bg-white rounded-md xl:rounded-xl">
                                 <div className="countdown-part__background  shadow-xl py-3 px-2 xl:py-5 xl:px-4 rounded-md xl:rounded-xl">
                                     <h1 className="font-bold text-xl xl:text-4xl" id="-seconds">27</h1>
                                 </div>

@@ -52,7 +52,7 @@ const ShopByBrand = () => {
         <Container>
             <div className="max-w-[1500px] mx-auto mb-10">
                 <div>
-                    <h2 className="text-black xl:text-3xl text-xl font-semibold mb-4">
+                    <h2 className="mb-4 text-xl font-semibold text-black xl:text-3xl">
                         Shop by Brand
                     </h2>
                     <Swiper

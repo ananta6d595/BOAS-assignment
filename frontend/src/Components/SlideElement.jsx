@@ -11,7 +11,7 @@ const SlideElement = ({ pageLink, imgLink, jeansLabel, logoLink }) => {
                         </p>
                     )}
                     {logoLink && (
-                        <div class="absolute w-1/2 h-auto aspect-video z-10">
+                        <div className="absolute w-1/2 h-auto aspect-video z-10">
                             <img
                                 sizes="100vw"
                                 className="h-full w-full"
