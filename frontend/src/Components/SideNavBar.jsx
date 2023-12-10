@@ -19,23 +19,23 @@ const SideNavBar = ({ navLinks, handleNav, nav }) => {
                             src="https://d1k98jamwa6vrd.cloudfront.net/boas_Logo_f9972b7505.png?w=3840&amp;q=75"></img>
                         Save Jeans, Save lives
                     </a>
-                    <ul className=" w-full pt-2 ">
+                    <div className=" w-full pt-2 flex flex-col">
                         {navLinks.map((data, index) => {
                             return (
-                                <li
+                                <a
                                     key={index}
                                     className="px-2 py-4 text-black text-center hover:text-neutral-700 font-semibold"
                                     href={data.link}>
                                     {data.label}
-                                </li>
+                                </a>
                             );
                         })}
-                        <li
+                        <a
                             className="px-2 py-4 text-black text-center hover:text-neutral-700 font-semibold"
                             href="https://shop.boas.co/blogs/nieuws">
                             Blog
-                        </li>
-                    </ul>
+                        </a>
+                    </div>
                     <div className=" relative flex flex-col justify-center items-center py-8 gap-2 bg-primary bg-opacity-70 md:order-2 w-full ">
                         <img
                             className="absolute h-full object-cover w-full"
