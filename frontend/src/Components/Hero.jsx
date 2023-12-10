@@ -60,8 +60,8 @@ const Hero = () => {
                     <div className=" absolute -z-10 bg-cover bg-bottom bg-gradient-to-t from-bg-white opacity-70 to-transparent w-full h-full" style={{ backgroundImage: "url('//shop.boas.co/cdn/shop/files/hero-img-new.jpg?v=1700680068')" }}>
                     </div>
                     <div className="px-4 xl:px-20 flex gap-4 xl:gap-8 justify-center items-end py-20 mx-auto h-full" >
-                        <a href="https://shop.boas.co/collections/vintage-jeans-women" className="flex justify-center py-4 flex-1  bg-[#191818] text-white hover:bg-white hover:opacity-95 hover:text-white" >Shop Women</a>
-                        <a href="https://shop.boas.co/collections/vintage-jeans-men" className="flex justify-center py-4 flex-1  bg-[#191818] text-white hover:bg-white hover:opacity-95 hover:text-white" >Shop Men</a>
+                        <a href="https://shop.boas.co/collections/vintage-jeans-women" className="flex justify-center py-4 flex-1  bg-[#191818] text-white hover:bg-white hover:opacity-95 hover:text-black" >Shop Women</a>
+                        <a href="https://shop.boas.co/collections/vintage-jeans-men" className="flex justify-center py-4 flex-1  bg-[#191818] text-white hover:bg-white hover:opacity-95 hover:text-black" >Shop Men</a>
                     </div>
                 </div>
             </div>
