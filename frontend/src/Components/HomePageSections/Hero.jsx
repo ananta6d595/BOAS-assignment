@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row max-w-[1500px] mx-auto gap-3 sm:gap-1 md:gap-2 px-2 sm:pr-0 sm:ps-4 lg:ps-24 mb-10" >
 
                 {/*  Left Section  */}
-                <div className="left-section py-5 md:py-20 w-full" >
+                <div className=" py-5 md:py-20 w-full" >
                     <header className='mb-5'>
                         <h1 className='font-semibold text-3xl xl:text-[40px] mb-5'>Save Jeans, Save Lives</h1>
                         <p className='text-lg'>You save vintage jeans and we donate 90% of profits to save lives.</p>
@@ -57,7 +57,7 @@ const Hero = () => {
 
                 {/* Right Section  */}
                 <div className='relative sm:w-[90%] '>
-                    <div className=" absolute -z-10 bg-cover bg-bottom bg-gradient-to-t from-bg-white opacity-70 to-transparent w-full h-full" style={{ backgroundImage: "url('//shop.boas.co/cdn/shop/files/hero-img-new.jpg?v=1700680068')" }}>
+                    <div className="absolute -z-10 bg-cover bg-bottom bg-gradient-to-t from-bg-white opacity-70 to-transparent w-full h-full" style={{ backgroundImage: "url('//shop.boas.co/cdn/shop/files/hero-img-new.jpg?v=1700680068')" }}>
                     </div>
                     <div className="px-4 xl:px-20 flex gap-4 xl:gap-8 justify-center items-end py-20 mx-auto h-full" >
                         <a href="https://shop.boas.co/collections/vintage-jeans-women" className="flex justify-center py-4 flex-1  bg-[#191818] text-white hover:bg-white hover:opacity-95 hover:text-black" >Shop Women</a>
