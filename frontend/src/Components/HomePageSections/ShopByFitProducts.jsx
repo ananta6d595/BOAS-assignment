@@ -39,7 +39,7 @@ const ShopByFitProducts = () => {
         <Container>
             <div className="max-w-[1500px] mx-auto mb-10">
                 <div>
-                    <h2 className="text-black xl:text-3xl text-xl font-semibold mb-4">
+                    <h2 className="text-black xl:text-3xl text-xl font-medium mb-4">
                         Shop by Fit
                     </h2>
                     <Swiper

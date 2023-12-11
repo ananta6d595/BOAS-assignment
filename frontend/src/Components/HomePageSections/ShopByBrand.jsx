@@ -52,7 +52,7 @@ const ShopByBrand = () => {
         <Container>
             <div className="max-w-[1500px] mx-auto mb-10">
                 <div>
-                    <h2 className="mb-4 text-xl font-semibold text-black xl:text-3xl">
+                    <h2 className="mb-4 text-xl font-medium text-black xl:text-3xl">
                         Shop by Brand
                     </h2>
                     <Swiper
@@ -67,7 +67,7 @@ const ShopByBrand = () => {
                         modules={[Pagination, Navigation]}>
                         {brandCollection.map((data, index) => {
                             return (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={index} >
                                     <SlideElement
                                         logoLink={data?.logoLink}
                                         jeansLabel={data?.label}

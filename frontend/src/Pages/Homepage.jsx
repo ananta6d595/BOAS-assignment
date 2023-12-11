@@ -5,6 +5,7 @@ import LevisSection from "../Components/HomePageSections/LevisSection";
 import ShopByFitProducts from "../Components/HomePageSections/ShopByFitProducts";
 import DownloadAppSection from "../Components/HomePageSections/DownloadAppSection";
 import ShopByBrand from "../Components/HomePageSections/ShopByBrand";
+import CustomerSaySection from "../Components/HomePageSections/CustomerSaySection";
 
 const Homepage = () => {
     // const { isPending, error, data } = useQuery({
@@ -27,6 +28,7 @@ const Homepage = () => {
             <ShopByFitProducts></ShopByFitProducts>
             <DownloadAppSection></DownloadAppSection>
             <ShopByBrand></ShopByBrand>
+            <CustomerSaySection></CustomerSaySection>
         </div>
     );
 };
