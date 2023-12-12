@@ -8,6 +8,7 @@ import ShopByBrand from "../Components/HomePageSections/ShopByBrand";
 import CustomerSaySection from "../Components/HomePageSections/CustomerSaySection";
 import MissionSection from "../Components/HomePageSections/MissionSection";
 import SaveSection from "../Components/HomePageSections/SaveSection";
+import DonatedSection from "../Components/HomePageSections/DonatedSection";
 
 const Homepage = () => {
     // const { isPending, error, data } = useQuery({
@@ -33,6 +34,7 @@ const Homepage = () => {
             <CustomerSaySection></CustomerSaySection>
             <MissionSection></MissionSection>
             <SaveSection></SaveSection>
+            <DonatedSection></DonatedSection>
         </div>
     );
 };

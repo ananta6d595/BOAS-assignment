@@ -32,7 +32,7 @@ const SaveSection = () => {
                     <h2 className="leading-7 lg:leading-9 lg:text-xl font-medium">
                         Buying just one pair of vintage jeans saves
                     </h2>
-                    <div className="grid grid-rows-2 grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 text-white gap-4 md:gap-y-12 md:gap-x-0 lg:gap-4 xl:gap-10 items-center justify-center">
+                    <div className="grid grid-rows-2 grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 text-white gap-4 md:gap-y-12 md:gap-x-0 lg:gap-4 xl:gap-10 items-center justify-center ">
                         {savingContent.map((data, index) => {
                             return <SavingGrids key={index} data={data}></SavingGrids>;
                         })}

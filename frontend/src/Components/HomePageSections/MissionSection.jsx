@@ -5,8 +5,8 @@ import Container from "../Container";
 const MissionSection = () => {
     return (
         <>
-            <div className="flex flex-col gap-10 lg:flex-row max-w-[1500px] mx-auto  px-2  sm:px-4 lg:ps-24 mb-10">
-                <div className="flex flex-col  gap-4 lg:py-20 ">
+            <div className="flex flex-col gap-10 lg:flex-row max-w-[1500px] mx-auto  px-2  sm:px-4  lg:ps-28 lg:pr-0 mb-10">
+                <div className="flex flex-col justify-center gap-4 lg:py-20 ">
                     <h6 className="text-xl lg:text-3xl font-medium ">
                         Save Jeans. Save Lives.{" "}
                     </h6>
