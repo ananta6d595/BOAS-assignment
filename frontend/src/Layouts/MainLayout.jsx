@@ -47,7 +47,7 @@ const MainLayout = () => {
     ];
 
     return (
-        <>
+        <div className="!scroll-smooth">
             <SideNavBar
                 navLinks={navLinks}
                 handleNav={handleNav}
@@ -58,7 +58,7 @@ const MainLayout = () => {
                 nav={nav}></NavBar>
             <Outlet></Outlet>
             <Footer></Footer>
-        </>
+        </div>
     );
 };
 
