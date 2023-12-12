@@ -1,4 +1,5 @@
 import React from "react";
+import earth from "../../assets/save_earth.jpeg";
 import Container from "../Container";
 
 const MissionSection = () => {
@@ -29,7 +30,7 @@ const MissionSection = () => {
                 <div className=" w-auto h-60 lg:h-auto lg:w-full ">
                     <img
                         className="object-cover h-full w-full "
-                        src="https://d1k98jamwa6vrd.cloudfront.net/BOAS_Mission_cbc2c88baa.svg?w=3840&amp;q=75"></img>
+                        src={earth}></img>
                 </div>
             </div>
         </>
