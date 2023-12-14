@@ -64,7 +64,9 @@ const CustomerSaySection = () => {
                             modules={[Pagination, Navigation]}>
                             {reviews.map((data, index) => {
                                 return (
-                                    <SwiperSlide key={index}>
+                                    <SwiperSlide
+                                        key={index}
+                                        className=" !sm:w-[330px] !md:w-[352px] lg:max-w-[440px] !mr-6 !md:mr-16">
                                         <CommentsSlide
                                             data={data}></CommentsSlide>
                                     </SwiperSlide>

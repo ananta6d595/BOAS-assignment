@@ -55,12 +55,10 @@ const ShopByFitProducts = () => {
                     >
                         {fitCollections.map((data, index) => {
                             return (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={index} className="!w-[340px]">
                                     <SlideElement
                                         pageLink={data.pageLink}
-                                        imgLink={
-                                            data.image
-                                        }
+                                        imgLink={data.image}
                                         jeansLabel={data.label}></SlideElement>
                                 </SwiperSlide>
                             );

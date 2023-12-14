@@ -11,7 +11,7 @@ const BoasBlog = () => {
                 "https://shop.boas.co/blogs/nieuws/fall-double-denim-outfits-cozy-chic-looks",
             img: "https://d1k98jamwa6vrd.cloudfront.net/small_Denim_on_denim_1080x_0d8c5a92da.jpg",
             date: "2023-08-03",
-            title: "Fashion Forward: Fall Double Denim Outfits for Cozy &amp; Chic Looks",
+            title: "Fashion Forward: Fall Double Denim Outfits for Cozy & Chic Looks",
         },
         {
             blogLink:
@@ -37,7 +37,7 @@ const BoasBlog = () => {
     ];
     return (
         <Container>
-            <div className="max-w-[1500px] mx-auto">
+            <div className="max-w-[1500px] mx-auto mb-10">
                 <div className="">
                     <h2 className="text-black xl:text-3xl text-xl font-medium">
                         BOAS Blog
@@ -51,10 +51,14 @@ const BoasBlog = () => {
                         mousewheel={{ invert: true }}
                         keyboard={true}
                         navigation={true}
-                        modules={[Pagination, Navigation]}>
+                        modules={[Pagination, Navigation]}
+
+                    >
                         {blogs.map((data, index) => {
                             return (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide
+                                    className="!w-80 md:!w-[313px] lg:!w-[413px]  md:!mr-10"
+                                    key={index}>
                                     <BlogBox data={data}></BlogBox>
                                 </SwiperSlide>
                             );

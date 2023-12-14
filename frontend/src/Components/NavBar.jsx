@@ -1,11 +1,9 @@
 import menuBar from "../assets/menu.svg";
 
-const NavBar = ({navLinks, handleNav, nav}) => {
-
-
+const NavBar = ({ navLinks, handleNav, nav }) => {
     return (
         <>
-            <div className="md:sticky top-0 z-20 md:-top-20">
+            <div className="md:sticky top-0 z-20 md:-top-20 bg-white">
                 <nav className="mx-auto flex max-w-[1500px] flex-col bg-white px-4 py-2 md:px-10 lg:px-32">
                     <div className="flex items-center justify-between">
                         <button
@@ -82,15 +80,8 @@ const NavBar = ({navLinks, handleNav, nav}) => {
                 </nav>
                 <div className="h-12 items-center bg-black px-28 shadow-md md:flex">
                     <div className="swiper swiper-initialized swiper-horizontal swiper-android swiper-backface-hidden">
-                        <div
-                            className="swiper-wrapper"
-                            id="swiper-wrapper"
-                            aria-live="off">
-                            <div
-                                className="swiper-slide swiper-slide-active swiper-slide-next w-48"
-                                role="group"
-                                aria-label="1 / 1"
-                                data-swiper-slide-index="0">
+                        <div className="swiper-wrapper">
+                            <div className="swiper-slide swiper-slide-active swiper-slide-next w-48">
                                 <div className="flex justify-center">
                                     <a className="text-white" href="#">
                                         FREE SHIPPING OVER €29

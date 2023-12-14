@@ -26,7 +26,7 @@ const MainLayout = () => {
         };
     }, [width]);
 
-    console.log(nav);
+
     const navLinks = [
         {
             link: "https://shop.boas.co/collections/vintage-jeans-women",

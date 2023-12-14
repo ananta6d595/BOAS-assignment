@@ -67,7 +67,7 @@ const ShopByBrand = () => {
                         modules={[Pagination, Navigation]}>
                         {brandCollection.map((data, index) => {
                             return (
-                                <SwiperSlide key={index} >
+                                <SwiperSlide key={index} className="!w-[340px]">
                                     <SlideElement
                                         logoLink={data?.logoLink}
                                         jeansLabel={data?.label}

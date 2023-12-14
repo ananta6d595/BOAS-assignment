@@ -3,6 +3,8 @@ import NewsLogo from "../NewsLogo";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import Container from "../Container";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+
 
 const InNews = () => {
     const newsCollections = [
@@ -40,24 +42,14 @@ const InNews = () => {
                             We have been featured
                         </h2>
                         <div className="flex items-center gap-2">
-                            <img
-                                src="/svg/arrow.svg"
-                                width="10"
-                                height="10"
-                                alt="arrow"
-                            />
+                            <FaArrowRight />
                             <a
                                 className="leading-6 text-black"
                                 href="https://shop.boas.co/pages/press">
                                 see all
                             </a>
-                            <img
-                                className="rotate-180"
-                                src="/svg/arrow.svg"
-                                width="10"
-                                height="10"
-                                alt="arrow"
-                            />
+                            <FaArrowLeft />
+
                         </div>
                     </div>
                     <div className="p-4">
@@ -74,7 +66,7 @@ const InNews = () => {
                             modules={[Pagination, Navigation]}>
                             {newsCollections.map((data, index) => {
                                 return (
-                                    <SwiperSlide key={index} >
+                                    <SwiperSlide key={index} className="!w-80">
                                         <NewsLogo img={data.img}></NewsLogo>
                                     </SwiperSlide>
                                 );

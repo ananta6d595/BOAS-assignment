@@ -1,25 +1,26 @@
-import React from 'react';
+import React from "react";
 
 const BlogBox = ({ data }) => {
     const { blogLink, img, date, title } = data;
     return (
-        <div>
-            <div className="aspect-[0.65] flex flex-col items-center justify-center mt-4 max-w-[18rem] max-h-[26rem] px-4 relative mb-10">
+        <>
+            <div className="aspect-[0.74] flex flex-col group items-center justify-start mt-4 max-w-[19rem] max-h-[26rem] relative mb-10 overflow-hidden">
                 <a
                     className="absolute inset-0 z-10 flex lg:hidden"
                     href={blogLink}></a>
-                <div className="relative  w-full p-4 transition-all duration-300 flex-[_5_2_auto]">
+
+                <div className="relative w-full p-10 transition-all duration-[250ms] flex-[_5_2_auto] group-hover:flex-[_0_0_0%] -z-10">
                     <img
-                        className="object-cover absolute "
+                        className="absolute inset-0 object-cover h-full group-hover:h-60 w-full group-hover:duration-[600ms] ease-in-out group-hover:-top-36"
                         src={img}
                     />
                 </div>
-                <div className="bg-blue-background flex flex-col items-start justify-between gap-4 pb-16 lg:pb-4 w-full p-4 flex-grow">
+                <div className="bg-[#eceff1] flex flex-col ease-out flex-grow items-start justify-between gap-4 pb-16 lg:pb-4 w-full p-4 ">
                     <div className="gap-2 ">
                         <p className="font-medium text-xs whitespace-nowrap text-black leading-5 md:leading-6">
                             {date}
                         </p>
-                        <p className="leading-[1.875rem] md:leading-9 font-medium text-xl line-clamp-2 ">
+                        <p className="leading-8 md:leading-9 font-medium text-xl line-clamp-2  group-hover:line-clamp-3  ease-out">
                             {title}
                         </p>
                     </div>
@@ -30,7 +31,7 @@ const BlogBox = ({ data }) => {
                     </a>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

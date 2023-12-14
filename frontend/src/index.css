@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-*{
+* {
     /* border: 1px solid red; */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
+
 .swiper-button-prev {
     background: black;
     width: 40px !important;
-    border-radius: 50%;
     left: 0px !important;
     opacity: 0.8;
     color: white !important;
     animation: scale 1.5s both;
     font-weight: bold;
 }
+
 .swiper-button-next {
     background: black;
-    border-radius: 50%;
     width: 40px !important;
     right: 0px !important;
     opacity: 0.8;
@@ -31,26 +30,23 @@
 }
 
 @keyframes scale {
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
-.swiper-button-prev:after, .swiper-button-next:after{
+.swiper-button-prev:after,
+.swiper-button-next:after {
     font-size: larger !important;
 }
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     height: 10px !important;
     width: 10px !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background: black !important;
-}
-
-.swiper-slide{
-    width: 330px !important;
 }
